@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.11" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.mystore2.mvn_archetype_quickstart_mycompany2.AppTest" 
+    project="mvn_archetype_quickstart_mycompany2" 
+    file="/mvn_archetype_quickstart_mycompany2/src/test/java/com/mystore2/mvn_archetype_quickstart_mycompany2/AppTest.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="249" x="62" y="174"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.mystore2.mvn_archetype_quickstart_mycompany2.AppTestJU4_2" 
+    project="mvn_archetype_quickstart_mycompany2" 
+    file="/mvn_archetype_quickstart_mycompany2/src/test/java/com/mystore2/mvn_archetype_quickstart_mycompany2/AppTestJU4_2.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="249" x="62" y="331"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" 
+    name="com.mystore2.mvn_archetype_quickstart_mycompany2.common.exception.CannotParse2IntegerException" 
+    project="mvn_archetype_quickstart_mycompany2" 
+    file="/mvn_archetype_quickstart_mycompany2/src/main/java/com/mystore2/mvn_archetype_quickstart_mycompany2/common/exception/CannotParse2IntegerException.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="331" x="351" y="1131"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.mystore2.mvn_archetype_quickstart_mycompany2.AppTestJU4_1" 
+    project="mvn_archetype_quickstart_mycompany2" 
+    file="/mvn_archetype_quickstart_mycompany2/src/test/java/com/mystore2/mvn_archetype_quickstart_mycompany2/AppTestJU4_1.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="441" width="355" x="351" y="331"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.mystore2.mvn_archetype_quickstart_mycompany2.AppTestSuiteJU4" 
+    project="mvn_archetype_quickstart_mycompany2" 
+    file="/mvn_archetype_quickstart_mycompany2/src/test/java/com/mystore2/mvn_archetype_quickstart_mycompany2/AppTestSuiteJU4.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="249" x="351" y="174"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.mystore2.mvn_archetype_quickstart_mycompany2.App" 
+    project="mvn_archetype_quickstart_mycompany2" 
+    file="/mvn_archetype_quickstart_mycompany2/src/main/java/com/mystore2/mvn_archetype_quickstart_mycompany2/App.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="249" x="81" y="812"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <association id="9">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="10" name="app"/>      
+      <multiplicity id="11" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="12">    
+    <bendpoint x="360" y="812"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
